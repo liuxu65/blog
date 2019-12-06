@@ -1,0 +1,11 @@
+spring:
+  aop:
+    auto: true
+server:
+  port: 8081
+
+logging:
+  level:
+    root: info
+    com.lx.blog: debug
+  file: log/blog-pro.log
